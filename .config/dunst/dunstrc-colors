@@ -1,0 +1,22 @@
+[global]
+frame_color = "#93cdf6"
+highlight = "#93cdf6"
+separator_color= "#8b9198"
+[experimental]
+per_monitor_dpi = false
+[urgency_low]
+timeout = 3
+background = "#101417"
+foreground = "#dfe3e7"
+highlight = "#004c6c"
+[urgency_normal]
+timeout = 6
+background = "#101417"
+foreground = "#dfe3e7"
+highlight = "#004c6c"
+[urgency_critical]
+timeout = 0
+background = "#101417"
+foreground = "#dfe3e7"
+highlight = "#ffb4ab"
+

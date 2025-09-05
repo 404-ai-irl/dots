@@ -1,0 +1,135 @@
+ls
+man nu
+help
+sys host
+zoxide init nushell | save -f ~/.config/nushell/zoxide.nu
+v 
+nvim $nu.env-path.nu
+nvim $nu.env-path
+fg
+job unfreeze
+exit
+:q
+exit
+help alias
+v
+nvim
+starship init
+starship init --help
+starship init nushell --help
+starship init nushell 
+starship init nu
+help save
+starship init nu | save ~/.config/nushell/starship.nu
+$nu.env
+$env
+$env.config
+ls
+help autoload
+help module
+help overlay
+overlay list
+pacup
+sudo pacman -Syyu
+pars proton
+paru -Ss proton
+pacman -Ss launcher
+tldr fuzzel
+fuzzel
+fuzzel --dmenu
+ls | fuzzel --dmenu
+ls
+cd code/
+ls
+mkdir envs
+ls
+tldr hg
+help hg
+man hg
+man jj
+tldr hg commit
+zeditor ~/.config
+ls
+cd envs/
+ls
+env
+cp ~/.zsh/keys.zsh .
+l
+ls
+~/.config/waybar/launch.sh
+$config-path
+$nu.config-path
+config
+$env.config
+$env.config | rg path
+ls
+exit
+fzf --help
+exit
+$nu.current-exe
+$nu.current-exe 
+zmk
+exit
+$nu.default-config-dir
+v
+exit
+ls
+env
+ls
+l
+cd
+z nu
+mkdir modules
+ls
+mv starship.nu zoxide.nu modules/
+ls
+exit
+z nu
+zoxide nu
+nvim ~/.config/nushell/env.nu
+exit
+config nu
+config nu --doc | nu-highlight
+ls
+nu-check 
+ls
+cd env.nu
+mv modules/ scripts/
+ls
+v env.nu
+nvim env.nu
+exit
+$nu.data-dir
+$nu.default-config-dir
+$nu.plugin-path
+$NU_LIB_DIRS
+ls
+use starship
+ls
+nvim env.nu
+x
+exit
+z nu
+z 
+z ta
+ls
+cargo --help
+cd
+z red
+ls
+menu
+input list
+fzf
+fzf init
+fzf -h
+togmon
+exit
+nvim $nu.default-config-dir
+exit
+nu
+ls
+exit
+x
+exit
+x
+exit

@@ -1,0 +1,66 @@
+# https://ghostty.org/docs/config
+### CORE ###
+shell-integration = fish
+title = "  gh0󰥓󰥓 "
+quit-after-last-window-closed = true
+quit-after-last-window-closed-delay = 3s
+# gtk
+gtk-adwaita = true
+gtk-titlebar = true
+gtk-single-instance = true
+gtk-tabs-location = top
+gtk-wide-tabs = false
+# clipboard
+clipboard-trim-trailing-spaces = true
+copy-on-select = true
+
+## THEME ##
+theme = Kanagawa Dragon
+background = 000000
+foreground = FFFFFF
+selection-invert-fg-bg = true
+alpha-blending = linear-corrected
+background-opacity = 0.6
+
+# font
+font-family = JetBrainsMono NF
+font-feature = cv01, cv02, cv33, cv34, cv35, cv36, cv61, cv62, ss05, ss06, ss07, ss08
+font-size = 13
+bold-is-bright = true
+
+# window
+window-save-state = always
+window-subtitle = working-directory
+window-inherit-working-directory = true
+window-inherit-font-size = true
+window-theme = ghostty
+window-decoration = true
+window-padding-x = 3
+window-padding-y = 1
+window-padding-balance = true
+window-padding-color = extend
+
+# mouse
+mouse-hide-while-typing
+# alt+click to move between prompts
+cursor-click-to-move = true
+
+# shaders
+# custom-shader =
+# custom-shader-animation =
+
+# keybinds
+keybind = shift+enter=text:\n
+keybind = shift+enter=text:\n
+# extras
+# config-file = ?matcolors.conf
+
+# May use in the future
+# background-blur = true
+# cursor-opacity = 0.6
+# minimum-contrast values:
+  # 1.1: for always visible text
+  # 3+: for always legible text
+minimum-contrast = 1.1
+
+

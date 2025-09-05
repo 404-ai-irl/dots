@@ -1,0 +1,10 @@
+--theme="base16-256"
+# --style="grid,numbers,changes,header"
+--style="auto"
+--italic-text=always
+
+# Use C++ syntax (instead of C) for .h header files
+# --map-syntax h:cpp
+
+# Use "gitignore" highlighting for ".ignore" files
+--map-syntax .ignore:.gitignore
