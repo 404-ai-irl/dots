@@ -6,5 +6,5 @@ edit = [
   { run = 'nvim "$@"', block = true, for = "unix"},
 ]
 open = [
-  { run = 'zen-browser', desc = "Open"},
+  { run = 'chromium "$@"', desc = "Open"},
 ]
