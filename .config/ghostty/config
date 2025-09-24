@@ -27,7 +27,7 @@ clipboard-trim-trailing-spaces = true
 copy-on-select = true
 
 ## THEME ##
-theme = Kanagawa Dragon
+theme = Harper
 background = 000000
 foreground = FFFFFF
 alpha-blending = native
