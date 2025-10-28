@@ -5,34 +5,19 @@ title = ""
 quit-after-last-window-closed = true
 quit-after-last-window-closed-delay = 1s
 
-# gtk
-gtk-opengl-debug = false
-gtk-single-instance = true
-gtk-titlebar = true
-# titlebar styles:
-# - 'native' (default)
-# - 'tabs' (not working)
-gtk-titlebar-style = native
-gtk-titlebar-hide-when-maximized = true
-# toolbar styles: 
-# - flat
-# - raised
-# - raised-border
-gtk-toolbar-style = flat
-gtk-tabs-location = bottom
-gtk-wide-tabs = true
+config-file = gtk-settings.conf
 
 # clipboard
 clipboard-trim-trailing-spaces = true
 copy-on-select = true
 
 ## THEME ##
-theme = Harper
+theme = Carbonfox
 background = 000000
 foreground = FFFFFF
 alpha-blending = native
 background-opacity = 0.9
-background-image = ~/pictures/marketing/tt-static/TT_logo.png
+# background-image = ~/pictures/marketing/tt-static/TT_logo.png
 
 # font
 font-family = JetBrainsMono NF
@@ -53,7 +38,7 @@ window-padding-balance = false
 window-padding-color = extend
 
 # mouse
-mouse-hide-while-typing
+mouse-hide-while-typing = true
 # alt+click to move between prompts
 cursor-click-to-move = true
 
@@ -74,3 +59,4 @@ keybind = shift+enter=text:\n
   # 1.1: for always visible text
   # 3+: for always legible text
 minimum-contrast = 1.1
+

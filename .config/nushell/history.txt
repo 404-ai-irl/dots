@@ -133,3 +133,55 @@ x
 exit
 x
 exit
+env
+$enb
+$env
+$path
+$env.path
+bun pm ls -g
+nu-check 
+$env.EDITOR
+nu config
+config nu 
+z
+x
+z
+x
+:q
+tmux at
+x
+exit
+x
+v .config/nushell
+help config nuy
+help config nu
+help config -s
+help config nu --doc | nu-highlight 
+config nu --doc | nu-highlight
+config nu --doc | nu-highlight | bat
+x
+exit
+config nu
+x
+exit
+tmux renamew nu
+z
+z nu
+l
+ls
+ls scripts/
+y
+yazi
+nu config --doc | nu-highlight | bat
+help config nu
+help config env
+config env --doc | nu-highlight | bat
+config nu
+v config.nu
+config env --default | nu-highlight | bat
+config env --default | nu-highlight | cat
+nvim config.nu
+v config.nu
+nvim config.nu
+x
+exit

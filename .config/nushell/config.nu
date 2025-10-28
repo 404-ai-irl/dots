@@ -1,19 +1,13 @@
 # config.nu
-#
-# Installed by:
-# version = "0.104.0"
-#
-# This file is used to override default Nushell settings, define
-# (or import) custom commands, or run any other startup tasks.
-# See https://www.nushell.sh/book/configuration.html
-#
-# This file is loaded after env.nu and before login.nu
-#
-# You can open this file in your default editor using:
-# config nu
-#
 # See `help config nu` for more options
-#
-# You can remove these comments if you want or leave
-# them for future reference.
+
+### history ###
+$env.config.history.file_format = "sqlite"
+$env.config.history.max_size = 5_000_000
+$env.config.history.sync_on_enter = true
+$env.config.history.isolation = true
+
+### terminal ###
+$env.config.use_kitty_protocol = true
+
 source $"($nu.home-path)/.cargo/env.nu"

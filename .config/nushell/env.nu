@@ -6,3 +6,4 @@
 
 source "starship.nu"
 source "zoxide.nu"
+source "yazi.nu"

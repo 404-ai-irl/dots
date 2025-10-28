@@ -1,5 +1,5 @@
 [mgr]
-ratio = [1, 4, 5]
+ratio = [1, 2, 5]
 show_hidden = false
 sort_sensitive = false
 sort_reverse = false
@@ -9,9 +9,6 @@ show_symlink = true
 scrolloff = 50
 title_format = "  {cwd}"
 
-[flavor]
-dark = "kanagawa-dragon"
-
 [opener]
 play = [
   { run = 'mpv "$@"', orphan = true, for = "unix" },
@@ -20,11 +17,11 @@ edit = [
   { run = 'nvim "$@"', block = true, for = "unix"},
 ]
 open = [
-  { run = 'zen-browser', desc = "Open"},
+  { run = 'mpv $@', desc = "Open"},
 ]
 
 [preview]
-wrap = "no"
+wrap = "yes"
 tab_size = 2
 max_width = 1000
 max_height = 1800
