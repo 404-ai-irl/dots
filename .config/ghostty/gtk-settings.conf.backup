@@ -1,0 +1,16 @@
+# gtk
+gtk-opengl-debug = false
+gtk-single-instance = true
+gtk-titlebar = true
+# titlebar styles:
+# - 'native' (default)
+# - 'tabs' (not working)
+gtk-titlebar-style = native
+gtk-titlebar-hide-when-maximized = false
+# toolbar styles:
+# - flat
+# - raised
+# - raised-border
+gtk-toolbar-style = flat
+gtk-tabs-location = bottom
+gtk-wide-tabs = true

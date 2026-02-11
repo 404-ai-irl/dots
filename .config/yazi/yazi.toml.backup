@@ -1,0 +1,29 @@
+[mgr]
+ratio = [1, 2, 5]
+show_hidden = false
+sort_sensitive = false
+sort_reverse = false
+sort_dir_first = true
+linemode = "size_and_mtime"
+show_symlink = true
+scrolloff = 50
+title_format = "  {cwd}"
+
+[opener]
+play = [
+  { run = 'mpv "$@"', orphan = true, for = "unix" },
+]
+edit = [
+  { run = 'nvim "$@"', block = true, for = "unix"},
+]
+# open = [
+#   { run = 'mpv $@', desc = "Open"},
+# ]
+
+[preview]
+wrap = "no"
+tab_size = 2
+max_width = 1000
+max_height = 1800
+image_delay = 10
+

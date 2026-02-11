@@ -38,6 +38,26 @@ use = "uhs-robert/sshfs"
 rev = "2728b14"
 hash = "8ee736ae855ed80ae341136bb8fb353c"
 
+[[plugin.deps]]
+use = "stelcodes/bunny"
+rev = "7137a44"
+hash = "58bfa473bcac8574400e573787954512"
+
+[[plugin.deps]]
+use = "Rolv-Apneseth/starship"
+rev = "a63550b"
+hash = "c2021386289a0cbb3e152a052f67c177"
+
+[[plugin.deps]]
+use = "uhs-robert/recycle-bin"
+rev = "8bb6286"
+hash = "f8d05a771c1d18c87f5558cbd4ae27fa"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:mount"
+rev = "88990a6"
+hash = "9ad20d763df07ce40fd09de549d914b0"
+
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-frappe"
 rev = "9cd2ac4"
